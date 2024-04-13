@@ -1,1 +1,41 @@
+#i-facebook{color: #00c0ff;}#i-telegram{color: #00c0ff;}
+ #i-twitter{color: #006cff;}
+#i-youtube{
+color: #ff000a;}
+ #i-instagram{
+color: #ff000a;} 
+#i-sun{color: #ffdc00;}
+#i-search{
+color: #ff7300;} 
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10,.ok,.b{
+  background: #fff;  
+text-shadow: 1px 1px 3px black;
+  padding: 10px 15px;
+font-weight: bold;
+  box-shadow: inset 0 13px 25px rgba(255,255,255,0.5), 0 3px 5px rgba(0,0,0,0.2), 0 10px 13px rgba(0,0,0,0.1);
+  border-radius: 50px; 
+   color: white;
+text-decoration: none;
+text-transform: uppercase;
+ 
+animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: #0055c7;}
+  20%{background-color: #ff001f;}
+  40%{background-color: darkgreen;}
+  60%{background-color: #aa00af;}
+  80% {background-color: #00ab81;}
+100% {background-color: #0055c7;}
+}
+
+
+<!-- zoom effect on image click -->
+Img:hover{
+
+transform: scale(1.07);
+
+transition: .7s ease;}
 

@@ -9,67 +9,6 @@ stroke-linecap:round;
 stroke-linejoin:round;
 stroke-width:2;
 }
-:root {
---bs-font-sans-serif: $(body.text.family);
---bs-body-bg: $(body.background);
---bs-body-color: $(body.text.color);
---jt-primary: $(keycolor);
---jt-heading-color: $(posts.title.color);
---jt-heading-link: $(posts.title.color);
---jt-heading-hover: $(keycolor);
---jt-link-color: $(body.link.color);
---jt-link-hover: $(body.hover.color);
---jt-blockquote: $(posts.text.color);
---jt-btn-primary: $(posts.icons.color);
---jt-btn-primary-hover: $(labels.background.color);
---jt-btn-light-hover: $(posts.title.color);
---jt-border-light: $(border.color);
---jt-bg-light: #f3f7f9;
---jt-archive-bg: #ffffff;
---jt-nav-color: $(tabs.color);
---jt-nav-hover: $(tabs.hover);
---jt-nav-selected: $(tabs.selected.color);
---jt-dropdown-bg: $(dropdown.bg);
---jt-dropdown-color: $(dropdown.color);
---jt-dropdown-hover: $(dropdown.hover);
---jt-dropdown-selected: $(dropdown.selected);
---jt-header-bg: $(header.bg);
---jt-header-color: $(header.color);
---jt-header-border: $(header.border);
---jt-footer-bg: $(footer.bg);
---jt-footer-color: $(footer.color);
---jt-footer-link: $(footer.link);
---jt-footer-border: $(footer.border);
---jt-socket-bg: $(socket.bg);
---jt-socket-color: $(socket.color);
---gd-bg:linear-gradient(to left, #006cff 0%, #ff00c7 100%);
- --grdt:linear-gradient(135deg,#ff1a75 0%,#7d2ae8 40%,#00c4cc 95%);
---ftr:radial-gradient(circle at 39% 47%, rgba(107, 107, 107,0.08) 0%, rgba(107, 107, 107,0.08) 33.333%,rgba(72, 72, 72,0.08) 33.333%, rgba(72, 72, 72,0.08) 66.666%,rgba(36, 36, 36,0.08) 66.666%, rgba(36, 36, 36,0.08) 99.999%),radial-gradient(circle at 53% 74%, rgba(182, 182, 182,0.08) 0%, rgba(182, 182, 182,0.08) 33.333%,rgba(202, 202, 202,0.08) 33.333%, rgba(202, 202, 202,0.08) 66.666%,rgba(221, 221, 221,0.08) 66.666%, rgba(221, 221, 221,0.08) 99.999%),radial-gradient(circle at 14% 98%, rgba(184, 184, 184,0.08) 0%, rgba(184, 184, 184,0.08) 33.333%,rgba(96, 96, 96,0.08) 33.333%, rgba(96, 96, 96,0.08) 66.666%,rgba(7, 7, 7,0.08) 66.666%, rgba(7, 7, 7,0.08) 99.999%),linear-gradient(45deg, rgb(97, 14, 117),rgb(20, 32, 127));
-}
-.dark-mode{
---bs-body-bg:#09191d;
---bs-body-color: white;
---jt-heading-color:white;
---jt-heading-link:#fff;
---jt-btn-light-hover:hsl(210,11%,85%);
---jt-link-color:#00ff57;
---jt-border-light:hsl(210,11%,20%);
---jt-bg-light:hsl(210,11%,20%);
---jt-archive-bg:#000921;
---jt-nav-color:#ffffff;
---jt-dropdown-bg:hsl(210,11%,18%);
---jt-dropdown-color:#ffffff;
---jt-header-bg:hsl(210,11%,15%);
---jt-header-color:#ffffff;
---jt-header-border:hsl(210,11%,20%);
---jt-footer-bg:hsl(210,11%,15%);
---jt-footer-color: white;
---jt-footer-border:hsl(210,11%,20%);
---jt-socket-bg: transparent;
---jt-socket-color:#ffffff;
---gd-bg:linear-gradient(45deg, rgb(255, 255, 0), rgb(0, 255, 255));
---grdt:#222;
---ftr:#222;}
  #i-facebook{color: #00c0ff;}#i-telegram{color: #00c0ff;}
  #i-twitter{color: #006cff;}
 #i-youtube{
@@ -80,35 +19,9 @@ color: #ff000a;}
 #i-search{
 color: #ff7300;} 
 #navbar{width:70%;}
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10,.ok,.b{
-  background: #fff;  
-text-shadow: 1px 1px 3px black;
-  padding: 10px 15px;
-font-weight: bold;
-  box-shadow: inset 0 13px 25px rgba(255,255,255,0.5), 0 3px 5px rgba(0,0,0,0.2), 0 10px 13px rgba(0,0,0,0.1);
-  border-radius: 50px; 
-   color: white;
-text-decoration: none;
-text-transform: uppercase;
- 
-animation: myanimation 10s infinite;
-}
-
-@keyframes myanimation {
-  0% {background-color: #0055c7;}
-  20%{background-color: #ff001f;}
-  40%{background-color: darkgreen;}
-  60%{background-color: #aa00af;}
-  80% {background-color: #00ab81;}
-100% {background-color: #0055c7;}
-}
-
-
 <!-- zoom effect on image click -->
 Img:hover{
-
-transform: scale(1.07);
-
+transform: scale(1.07)
 transition: .7s ease;}
 .ap{ display: block; width: 100%; max-width: 300px; margin: 5px auto; padding: 7px 10px; text-align: center; font-weight: bold; text-decoration: none; color: white; text-transform: uppercase; background: linear-gradient(180deg, #ffb200, #ff3400); filter: drop-shadow(0 5px 10px #ffeabf); border-radius: 35px; font-size: 20px; font-weight: bold; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; text-shadow: 1px 1px 0px black;
    } 
